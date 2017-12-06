@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #ffffff;
+    margin: 0px;
+}
+
+.MainContainer {
+    background-color: #d4d4d4;
+    max-width: 89%;
+    margin:auto;
+}
+
+#first {
+    width: 29.1%;
+    height: 300px;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-flex;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: 10%;
+}
+#second {
+    width: 29.1%;
+    height: 300px;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-flex;
+    margin-top: 40px;
+    margin-right: 6%;
+}
+
+#third {
+    width: 29.1%;
+    height: 300px;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-flex;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: 10%;
+}
+
+#clear {
+    clear: both;
+}
+
+.MainContainer img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.LeftTextBox {
+    border-style: solid;
+    border-width: 1px;
+    max-width: 200px;
+}
+
+canvas {
+    border-style: solid;
+    border-width: 1px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ff5e00;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #db5101;
+}
+
+.active {
+    background-color: #c74900;
+}

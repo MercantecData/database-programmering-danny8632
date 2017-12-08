@@ -36,7 +36,9 @@
     <div id="first">
         <h2>Login:</h2>
         <form action="login.php" method="POST">
-            Username: <input type="text" name="username" required>
+            Username: 
+            <br>
+            <input type="text" name="username" required>
             <input type="password" name="password" required>
             <input type="submit" value="Login">
             <?php 
@@ -56,9 +58,4 @@
             <input type="submit" value="Register">
         </form>
     </div>
-
-    <br><br><br>
-    <form action="logout.php">
-        <input type="submit" value="Logout">
-    </form>
 </div>
